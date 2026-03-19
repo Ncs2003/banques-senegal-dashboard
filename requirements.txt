@@ -1,0 +1,8 @@
+
+dash
+dash-bootstrap-components
+pymongo
+pandas
+dnspython
+reportlab
+gunicorn
