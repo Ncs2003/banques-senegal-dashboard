@@ -18,7 +18,7 @@ import base64
 # CONNEXION MONGODB
 # ============================================================
 MONGO_URI = "mongodb+srv://ndeyecoumbasamb_db_user:Mong0D3@cluster0.syxao95.mongodb.net/"
-client = MongoClient(MONGO_URI, tlsAllowInvalidCertificates=True)
+client = MongoClient(MONGO_URI, tls=True, tlsAllowInvalidCertificates=True)
 db = client["banques_senegal"]
 
 # ============================================================
